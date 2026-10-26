@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agatu-schedule//RU
+CALSCALE:GREGORIAN
+X-WR-CALNAME:АГАТУ: Теория
+X-WR-TIMEZONE:Asia/Yakutsk
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Yakutsk
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:YAKT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9fb87a1834d0f701c48a44cc6acad380@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261026T140000
+DTEND;TZID=Asia/Yakutsk:20261026T153500
+SUMMARY:Архитектура аппаратных средств
+LOCATION:ауд. 2.311 · Федоров П.И.
+DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.311
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:775d7d3d3e8accdf972c7df2135e0874@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261027T173000
+DTEND;TZID=Asia/Yakutsk:20261027T190500
+SUMMARY:Информационные технологии
+LOCATION:ауд. 2.309 · Бурнашев В.Д.
+DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:42f6e69eda05ebccfc153afbc510ca17@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261028T120000
+DTEND;TZID=Asia/Yakutsk:20261028T133500
+SUMMARY:Элементы высшей математики
+LOCATION:ауд. 1.420 · Дмитриева Т.Г.
+DESCRIPTION:Элементы высшей математики (теория) (Дмитриева Т.Г.)\nПеремена 12:40-12:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 1.420
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:085eb0d6b5735582cd5c9f63f30419ae@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261028T173000
+DTEND;TZID=Asia/Yakutsk:20261028T190500
+SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
+LOCATION:ауд. 2.311 · Федоров П.И.
+DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (теория) (Федоров П.И.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.311
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f74823135497e29052e7df3773951ea3@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261029T140000
+DTEND;TZID=Asia/Yakutsk:20261029T153500
+SUMMARY:Архитектура аппаратных средств
+LOCATION:ауд. 2.309 · Федоров П.И.
+DESCRIPTION:Архитектура аппаратных средств (теория) (Федоров П.И.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.309
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ddc33062c00fa80e5177fa5e7c35facc@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261030T140000
+DTEND;TZID=Asia/Yakutsk:20261030T153500
+SUMMARY:Информационные технологии
+LOCATION:ауд. 1.107 · Бурнашев В.Д.
+DESCRIPTION:Информационные технологии (теория) (Бурнашев В.Д.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 1.107
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:faa1e9627384574dff629c2ec8e8d61f@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261031T120000
+DTEND;TZID=Asia/Yakutsk:20261031T133500
+SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
+LOCATION:ауд. 2.406 · Федоров П.И.
+DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (теория) (Федоров П.И.)\nПеремена 12:40-12:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.406
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

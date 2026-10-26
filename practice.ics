@@ -1,0 +1,186 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agatu-schedule//RU
+CALSCALE:GREGORIAN
+X-WR-CALNAME:АГАТУ: Практика
+X-WR-TIMEZONE:Asia/Yakutsk
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Yakutsk
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:YAKT
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:14961471008bc89c7281ae02226e42c6@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261026T154500
+DTEND;TZID=Asia/Yakutsk:20261026T172000
+SUMMARY:Иностранный язык в проф.деятельности
+LOCATION:ауд. 2.311 · Семенова А.Е.
+DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 2.311
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e6ceb0a6461b4f35d0d763e8cea4274e@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261026T173000
+DTEND;TZID=Asia/Yakutsk:20261026T190500
+SUMMARY:Архитектура аппаратных средств
+LOCATION:ауд. 2.406 · Федоров П.И.
+DESCRIPTION:Архитектура аппаратных средств (практ.зан) (Федоров П.И.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Архитектура аппаратных средств\, ауд. 2.406
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82467674bb47a2ef20445c360d9b712f@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261027T140000
+DTEND;TZID=Asia/Yakutsk:20261027T153500
+SUMMARY:Информационные технологии
+LOCATION:ауд. 2.114 · Бурнашев В.Д.
+DESCRIPTION:Информационные технологии (практ.зан) (Бурнашев В.Д.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 2.114
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d0386b72879cc4e0875702b21a7e9ead@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261027T154500
+DTEND;TZID=Asia/Yakutsk:20261027T172000
+SUMMARY:Операционные системы и среды
+LOCATION:ауд. 2.313 · Федоров П.И.
+DESCRIPTION:Операционные системы и среды (практ.зан) (Федоров П.И.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Операционные системы и среды\, ауд. 2.313
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:90954241325dc3bc83bd613625716712@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261028T140000
+DTEND;TZID=Asia/Yakutsk:20261028T153500
+SUMMARY:Иностранный язык в проф.деятельности
+LOCATION:ауд. 1.420 · Семенова А.Е.
+DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 1.420
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfa0aa7a1112ecedb88231d2915b0a7@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261028T154500
+DTEND;TZID=Asia/Yakutsk:20261028T172000
+SUMMARY:Основы алгоритмизации и программирования
+LOCATION:ауд. 2.114 · Бурнашов В.Д.
+DESCRIPTION:Основы алгоритмизации и программирования (практ.зан) (Бурнашов В.Д.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Основы алгоритмизации и программирования\, ауд. 2.114
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3099be4f7a9909943bd045ad2ee3edf4@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261029T120000
+DTEND;TZID=Asia/Yakutsk:20261029T133500
+SUMMARY:Физическая культура
+LOCATION:ауд. УФК манеж · Леонтьев В.В.
+DESCRIPTION:Физическая культура (Леонтьев В.В.)\nПеремена 12:40-12:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Физическая культура\, ауд. УФК манеж
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2eeb47200c57e732e4c0592ead67c543@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261029T154500
+DTEND;TZID=Asia/Yakutsk:20261029T172000
+SUMMARY:Операционные системы и среды
+LOCATION:ауд. 2.313 · Федоров П.И.
+DESCRIPTION:Операционные системы и среды (практ.зан) (Федоров П.И.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Операционные системы и среды\, ауд. 2.313
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb6282b4de98b1b6a36b5a589a53d9ce@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261030T154500
+DTEND;TZID=Asia/Yakutsk:20261030T172000
+SUMMARY:Психология общения
+LOCATION:ауд. 2.311 · Калачева Л.В.
+DESCRIPTION:Психология общения (практ.зан) (Калачева Л.В.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Психология общения\, ауд. 2.311
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cbb5cc52464953250d6ff14e4ee16887@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261030T173000
+DTEND;TZID=Asia/Yakutsk:20261030T190500
+SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
+LOCATION:ауд. 2.313 · Федоров П.И.
+DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (практ.зан) (Федоров П.И.)\nПеремена 18:10-18:15
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.313
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ef5bfef04751d745666a2edb2e71c55e@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261031T101500
+DTEND;TZID=Asia/Yakutsk:20261031T115000
+SUMMARY:МДК 11.01. Технология разработки и защиты баз данных
+LOCATION:ауд. 2.406 · Федоров П.И.
+DESCRIPTION:МДК 11.01. Технология разработки и защиты баз данных (практ.зан) (Федоров П.И.)\nПеремена 10:55-11:00
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - МДК 11.01. Технология разработки и защиты баз данных\, ауд. 2.406
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f1766361514f7147ed47259c98bcf07@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261031T140000
+DTEND;TZID=Asia/Yakutsk:20261031T153500
+SUMMARY:Физическая культура
+LOCATION:ауд. УФК манеж · Леонтьев В.В.
+DESCRIPTION:Физическая культура (Леонтьев В.В.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Физическая культура\, ауд. УФК манеж
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
