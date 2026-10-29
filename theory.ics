@@ -30,6 +30,20 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:14961471008bc89c7281ae02226e42c6@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261026T154500
+DTEND;TZID=Asia/Yakutsk:20261026T172000
+SUMMARY:Иностранный язык в проф.деятельности
+LOCATION:ауд. 2.311 · Семенова А.Е.
+DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 2.311
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:775d7d3d3e8accdf972c7df2135e0874@agatu-schedule
 DTSTAMP:20260101T000000Z
 DTSTART;TZID=Asia/Yakutsk:20261027T173000
@@ -54,6 +68,20 @@ DESCRIPTION:Элементы высшей математики (теория) (�
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Следующая пара - Элементы высшей математики\, ауд. 1.420
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:90954241325dc3bc83bd613625716712@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261028T140000
+DTEND;TZID=Asia/Yakutsk:20261028T153500
+SUMMARY:Иностранный язык в проф.деятельности
+LOCATION:ауд. 1.420 · Семенова А.Е.
+DESCRIPTION:Иностранный язык в проф.деятельности (практ.зан) (Семенова А.Е.)\nПеремена 14:40-14:45
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Иностранный язык в проф.деятельности\, ауд. 1.420
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -96,6 +124,20 @@ DESCRIPTION:Информационные технологии (теория) (Б
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Следующая пара - Информационные технологии\, ауд. 1.107
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb6282b4de98b1b6a36b5a589a53d9ce@agatu-schedule
+DTSTAMP:20260101T000000Z
+DTSTART;TZID=Asia/Yakutsk:20261030T154500
+DTEND;TZID=Asia/Yakutsk:20261030T172000
+SUMMARY:Психология общения
+LOCATION:ауд. 2.311 · Калачева Л.В.
+DESCRIPTION:Психология общения (практ.зан) (Калачева Л.В.)\nПеремена 16:25-16:30
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Следующая пара - Психология общения\, ауд. 2.311
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
