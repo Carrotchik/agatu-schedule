@@ -1,4 +1,4 @@
-﻿"""Расписание АГАТУ (ИСиП-9-25) -> три календаря .ics: theory, practice, dfk.
+"""Расписание АГАТУ (ИСиП-9-25) -> три календаря .ics: theory, practice, dfk.
 
 Запуск:  python agatu_schedule.py [--subgroup 1|2] [--pdf файл.pdf] [--alarm 15] [--out-dir .]
 Нужно:   pip install pdfplumber
@@ -25,6 +25,7 @@ PARENS_RE = re.compile(r"\s*\([^)]*\)")
 
 GROUP_MARKER = "9-25-1"  # по нему ищется страница PDF с нужной группой
 TZ = "Asia/Yakutsk"  # часовой пояс вуза (UTC+9, без перехода на летнее время)
+ALWAYS_THEORY = ("иностранный язык", "психология общения")  # считаются теорией, даже если в расписании "практ.зан"
 LESSON_MINUTES = 95  # длительность, если в расписании указано только время начала
 BREAK_AFTER, BREAK_LEN = 40, 5  # перемена внутри пары: через 40 минут после начала, 5 минут
 CALENDARS = {"theory": "Теория", "practice": "Практика", "dfk": "ДФК"}  # <ключ>.ics = отдельный календарь
@@ -45,7 +46,9 @@ class Lesson(NamedTuple):
         t = self.title.lower()
         if DFK_RE.search(t):
             return "dfk"
-        return "theory" if "теория" in t else "practice"  # без пометки (физкультура) = практика
+        if "теория" in t or t.startswith(ALWAYS_THEORY):
+            return "theory"
+        return "practice"  # без пометки (физкультура) = практика
 
 
 def fetch(url):
@@ -161,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
